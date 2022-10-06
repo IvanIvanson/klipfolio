@@ -1,0 +1,44 @@
+@import 'module/fonts';
+@import 'module/default-style';
+
+
+
+.container{
+    // border:solid black 5px;
+    width: 100vw;
+    
+    padding-right: 20vmin;
+    padding-left: 20vmin;
+    background-image: url('../image/mainbg.png');
+    background-size:cover;
+    background-position: center -50px;
+    background-repeat: no-repeat;
+@import 'module/header';
+@import 'module/header-bottom';
+@import 'module/add';
+}
+
+ 
+
+
+@media (max-width:426px){
+   .container{
+padding-right: 10vmin;
+    padding-left: 10vmin;
+   }
+}
+
+
+@media (max-width:700px){
+
+}
+@media (max-width:1025px){
+.container{
+    
+    padding-right: 10vmin;
+    padding-left: 10vmin;
+}
+}
+@media (min-width:1700px){
+
+}

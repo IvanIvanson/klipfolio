@@ -1,0 +1,17 @@
+.navbar{
+    // border: solid red;
+   .navbar-nav{
+    color: #333;
+    
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+   }
+}
+@media (max-width:1025px) {
+     .navbar-nav{
+    font-size: 10px;
+line-height: 15px;
+     }
+}
