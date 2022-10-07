@@ -8,14 +8,18 @@
   font-size: 16px;
 }
 
+body {
+  background: url(../image/mainbg.png) center -50px no-repeat;
+  background-size: cover;
+  z-index: -10;
+}
+
 .container {
   width: 100vw;
   padding-right: 20vmin;
   padding-left: 20vmin;
-  background-image: url("../image/mainbg.png");
-  background-size: cover;
-  background-position: center -50px;
-  background-repeat: no-repeat;
+  background: url(../image/iconsbg.png) 50% 50% no-repeat;
+  background-size: auto;
 }
 
 .container .navbar .navbar-nav {
@@ -209,7 +213,8 @@
 .container .add .add-i-can .rectangle-blue {
   height: 1000px;
   border-radius: 40px;
-  background: #303881;
+  background: #303881 url(../../image/iconsbg.png) -50px -190px no-repeat;
+  background-size: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,6 +375,7 @@
 .container .add .add-i-can .rectangle-white .rectangle-inner .rectangle-inner-down {
   width: 95%;
   gap: 0px;
+  padding: 50px;
 }
 
 .container .add .add-i-can .rectangle-white .rectangle-inner .rectangle-inner-down .card-top {
@@ -398,6 +404,16 @@
       align-self: flex-start;
   padding-top: 20px;
   font-weight: bold;
+}
+
+.container .add .add-i-can .rectangle-white .rectangle-inner .rectangle-inner-down .card-top .leftchart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media (max-width: 1025px) {
@@ -889,7 +905,6 @@
             justify-content: center;
     padding-top: 20px;
     gap: 10px;
-    padding-left: 0px;
   }
   .container .add .add-i-can .rectangle-white .rectangle-inner .rectangle-inner-down .card-top {
     min-width: 228px;
@@ -910,7 +925,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #FFFFFF;
+    background: inherit;
   }
   .container .add .add-i-can .rectangle-white .rectangle-inner .rectangle-inner-down .card-top .sp-1 {
     -ms-flex-item-align: start;

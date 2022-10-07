@@ -2,17 +2,22 @@
 @import 'module/default-style';
 
 
-
+body{
+  background: url(../image/mainbg.png)center -50px no-repeat;
+   background-size: cover;
+   z-index: -10;
+}
 .container{
     // border:solid black 5px;
     width: 100vw;
     
     padding-right: 20vmin;
     padding-left: 20vmin;
-    background-image: url('../image/mainbg.png');
-    background-size:cover;
-    background-position: center -50px;
-    background-repeat: no-repeat;
+    background: url(../image/iconsbg.png) 50% 50% no-repeat;
+        
+    background-size:auto;
+    // background-position: center -50px;
+    // background-repeat: no-repeat;
 @import 'module/header';
 @import 'module/header-bottom';
 @import 'module/add';
