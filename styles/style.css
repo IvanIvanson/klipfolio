@@ -18,7 +18,6 @@ body {
   width: 100vw;
   padding-right: 20vmin;
   padding-left: 20vmin;
-  background: url(../image/iconsbg.png) 50% 50% no-repeat;
   background-size: auto;
 }
 
@@ -196,6 +195,12 @@ body {
   }
 }
 
+.container .add .iconbg {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+}
+
 .container .add .add-i-can {
   width: 100vw;
   display: -webkit-box;
@@ -213,7 +218,7 @@ body {
 .container .add .add-i-can .rectangle-blue {
   height: 1000px;
   border-radius: 40px;
-  background: #303881 url(../../image/iconsbg.png) -50px -190px no-repeat;
+  background: #303881;
   background-size: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -739,6 +744,15 @@ body {
 }
 
 @media (max-width: 426px) {
+  .container .add {
+    position: relative;
+  }
+  .container .add .iconbg {
+    display: block;
+    margin: 60px auto;
+    position: absolute;
+    opacity: 1;
+  }
   .container .add .add-i-can {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -932,6 +946,18 @@ body {
         align-self: flex-start;
     padding-top: 20px;
     font-weight: bold;
+  }
+}
+
+@media (max-width: 376px) {
+  .container .add {
+    position: relative;
+  }
+  .container .add .iconbg {
+    display: block;
+    margin: 60px auto;
+    position: absolute;
+    opacity: 0.7;
   }
 }
 
