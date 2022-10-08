@@ -53,6 +53,7 @@ color: #FFFFFF;
             width: 65%;
             min-height: 664px;
         // border:solid rgb(60, 0, 255);
+     box-shadow: 0 5px 40px #555;
         display: flex;
         justify-content: center;
         // flex-wrap: wrap;
@@ -62,6 +63,7 @@ background: #FFF;
 border-radius: 40px;
 .rectangle-inner{
     // max-width: 992px;
+
     width: 95%;
     height: 620px;
     display: flex;

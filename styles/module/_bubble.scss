@@ -1,0 +1,128 @@
+.bubblechart{
+    width: 100%; 
+    // border: solid red;
+    padding-top: 50px;
+    margin: 0 auto;
+    .chart{
+
+    }
+    .content{
+// text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+h1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 68px;
+line-height: 82px;
+max-width: 735px;
+// text-align: center;
+letter-spacing: 2.04px;
+    // border: solid green;
+padding-top: 50px;
+color: #21264F;
+}
+p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* or 120% */
+max-width: 624px;
+margin-right: 111px;
+
+color: #21264F;
+}
+    }
+}
+
+@media (max-width:768px){
+.bubblechart{
+    width: 100%; 
+    
+    padding-top: 50px;
+    margin: 0 auto;
+    .chart{
+
+    }
+    .content{
+// text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+h1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 42px;
+max-width: 735px;
+// text-align: center;
+letter-spacing: 1.54px;
+    
+padding-top: 30px;
+color: #21264F;
+}
+p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 24px;
+/* or 120% */
+max-width: 624px;
+margin-right: 111px;
+
+color: #21264F;
+}
+    }
+}
+}
+@media (max-width:425px){
+.bubblechart{
+    width: 100%; 
+    
+    padding-top: 30px;
+    margin: 0 auto;
+    .chart{
+
+    }
+    .content{
+// text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+h1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 32px;
+max-width: 425px;
+// text-align: center;
+letter-spacing: 1.04px;
+    
+padding-top: 0px;
+color: #21264F;
+}
+p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+/* or 120% */
+max-width: 425px;
+margin-right: 0px;
+
+color: #21264F;
+}
+    }
+}
+}
