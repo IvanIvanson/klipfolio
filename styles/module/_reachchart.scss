@@ -1,13 +1,13 @@
-.bubblechart{
+.reach{
     width: 100%; 
     // border: solid red;
     padding-top: 50px;
     margin: 0 auto;
-    .chart{
+    .reachchart{
         width: 100%;
         // height: 530px;
        padding-left: 0;
-background: url('../../image/backgroundbubble.png');
+background: url('../../image/reachbg.png');
 background-repeat: no-repeat;
 background-size: auto;
 background-position: center;
@@ -61,12 +61,12 @@ color: #21264F;
 }
 
 @media (max-width:768px){
-.bubblechart{
+.reach{
     width: 100%; 
     
     padding-top: 50px;
     margin: 0 auto;
-    .chart{
+    .reachchart{
 canvas {
     display: block;
     
@@ -113,12 +113,12 @@ color: #21264F;
 }
 }
 @media (max-width:425px){
-.bubblechart{
+.reach{
     width: 100%; 
     
     padding-top: 30px;
     margin: 0 auto;
-    .chart{
+    .reachchart{
 canvas {
     display: block;
     
