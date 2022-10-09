@@ -214,14 +214,181 @@ const myChartrev = new Chart(ctxrev, {
     },
   },
 }); 
-
-
+// ---------------
+const ctxshare = document.getElementById("share").getContext("2d");
+const share = new Chart(ctxshare, {
+  type: "line",
+  data: {
+    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    datasets: [
+      {
+        label: "Leades-1",
+        data: [0, 15, 23, 15, 12, 9],
+        backgroundColor: [
+          "#4B57C5",
+          // "rgba(54, 162, 235, 0.2)",
+          // "rgba(255, 206, 86, 0.2)",
+          // "rgba(75, 192, 192, 0.2)",
+          // "rgba(153, 102, 255, 0.2)",
+          // "rgba(255, 159, 64, 0.2)",
+        ],
+        borderColor: [
+          "#4B57C5",
+          // "rgba(54, 162, 235, 1)",
+          // "rgba(255, 206, 86, 1)",
+          // "rgba(75, 192, 192, 1)",
+          // "rgba(153, 102, 255, 1)",
+          // "rgba(255, 159, 64, 1)",
+        ],
+        borderWidth: 2,
+        // tension: 0.8,
+      },
+      {
+        label: "Leades-2",
+        data: [0, 5, 3, 6, 12, 19],
+        backgroundColor: [
+          "#21264F",
+          // "rgba(54, 162, 235, 0.2)",
+          // "rgba(255, 206, 86, 0.2)",
+          // "rgba(75, 192, 192, 0.2)",
+          // "rgba(153, 102, 255, 0.2)",
+          // "rgba(255, 159, 64, 0.2)",
+        ],
+        borderColor: [
+          "#21264F",
+          // "rgba(54, 162, 235, 1)",
+          // "rgba(255, 206, 86, 1)",
+          // "rgba(75, 192, 192, 1)",
+          // "rgba(153, 102, 255, 1)",
+          // "rgba(255, 159, 64, 1)",
+        ],
+        borderWidth: 2,
+        // tension: 0.8,
+      },
+      {
+        label: "Leades-3",
+        data: [0, 12, 8, 16, 19, 22],
+        backgroundColor: [
+          "#B0B8FC",
+          // "rgba(54, 162, 235, 0.2)",
+          // "rgba(255, 206, 86, 0.2)",
+          // "rgba(75, 192, 192, 0.2)",
+          // "rgba(153, 102, 255, 0.2)",
+          // "rgba(255, 159, 64, 0.2)",
+        ],
+        borderColor: [
+          "#B0B8FC",
+          // "rgba(54, 162, 235, 1)",
+          // "rgba(255, 206, 86, 1)",
+          // "rgba(75, 192, 192, 1)",
+          // "rgba(153, 102, 255, 1)",
+          // "rgba(255, 159, 64, 1)",
+        ],
+        borderWidth: 2,
+        // tension: 0.8,
+      },
+    ],
+  },
+  options: {
+    // -------
+    plugins: {
+      title: {
+        display: true,
+        text: "Leads",
+        color: "#ccc",
+        align: "start",
+      },
+    },
+    layout: {
+      padding: {
+        left: 20,
+      },
+    },
+    // ------
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+}); 
 // ----------------
+const ctxsharebar = document.getElementById("sharebar").getContext("2d");
+const shareBar = new Chart(ctxsharebar, {
+  type: "bar",
+  data: {
+    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    datasets: [
+      {
+        label: "Leades-1",
+        data: [10, 15, 23, 25, 27, 29],
+        backgroundColor: [
+          "#B0B8FC",
+          // "rgba(54, 162, 235, 0.2)",
+          // "rgba(255, 206, 86, 0.2)",
+          // "rgba(75, 192, 192, 0.2)",
+          // "rgba(153, 102, 255, 0.2)",
+          // "rgba(255, 159, 64, 0.2)",
+        ],
+        borderColor: [
+          "#B0B8FC",
+          // "rgba(54, 162, 235, 1)",
+          // "rgba(255, 206, 86, 1)",
+          // "rgba(75, 192, 192, 1)",
+          // "rgba(153, 102, 255, 1)",
+          // "rgba(255, 159, 64, 1)",
+        ],
+        borderWidth: 2,
+        // tension: 0.8,
+      },
+      {
+        label: "Leades-2",
+        data: [8, 10, 15, 16, 22, 25],
+        backgroundColor: [
+          "#4B57C5",
+         
+        ],
+        borderColor: [
+          "#4B57C5",
+         
+        ],
+        borderWidth: 2,
+        // tension: 0.8,
+      },
+    ],
+  },
+  options: {
+    // -------
+    plugins: {
+      title: {
+        display: true,
+        text: "Web Trafic",
+        color: "#ccc",
+        align: "start",
+      },
+    },
+    layout:{
+      padding: {
+    left:20,
+  }
+},
+    // ------
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+}); 
+
+// ---------------
     myChart(); 
     myChart2();
     myChart3();
   bubbleChart();
   myChartrev();
+  share();
+  shareBar();
 }
 
 
