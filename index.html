@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,7 +15,6 @@
     
 <div class="container col-12" id="container">
        
-
     <div class="row">
         <div class="col-12" id="header-top">
             <!-- nave -->
@@ -26,7 +25,7 @@
         <!-- succeed -->
     </div>
     <div class="col-xl-6 headercolimg col-sm-12 order-xl-2 order-sm-1" id="headercolimg">
-        <img  class="img-fluid" src="./image/headerimgright.png" alt="face">
+        <img  class="img-fluid" src="./image/headerimgright.png" alt="face" data-aos="fade-up">
     </div>
     </div>
     <div class="row add">
@@ -39,7 +38,7 @@
 </div>
 <div class="rectangle-white">
     <div class="rectangle-inner">
-        <div class="row rectangle-inner-top">
+        <div class="row rectangle-inner-top" data-aos="fade-bottom">
             <div class="col-sm-3 col-xl card-top">
                 <span class="sp sp-1">MRR YTD</span>
                 <span class="sp sp-2">$25,215</span>
@@ -93,14 +92,14 @@
         <div class="row rectangle-inner-down">
             <div class="col-sm-6 col card-top">
               
-                    <div class="leftchart">
+                    <div class="leftchart" data-aos="fade-bottom">
                       <canvas id="myChart"></canvas>  
                       <canvas id="myChart3"></canvas>  
                     </div>
                     
                 
             </div>
-            <div class="col-sm-6 col card-top">
+            <div class="col-sm-6 col card-top" data-aos="fade-up">
                 <div>
                     <canvas id="myChart2"></canvas>
                 </div>
@@ -123,15 +122,14 @@ decisions from a single source of truth.</p>
     </div>
     <div class="row reach">
         <div class="col-sm-12 reachchart">
-<canvas id="revenuechart"></canvas>
+<canvas id="revenuechart"  data-aos="fade-up"></canvas>
         </div>
-        <div class="col-sm-12 content">
+        <div class="col-sm-12 content" data-aos="fade-up">
 <h1>Reach your goals with confidence</h1>
 <p>Monitor and track your metrics in real time so you can celebrate your wins as they happen or address issues before it’s
 too late.</p>
         </div>
     </div>
-
 
     <div class="row share">
         <div class="col-sm-12 share-top">
@@ -140,7 +138,7 @@ too late.</p>
     <div class="left-top">
         <p>Let's build on our momentum</p>
     </div>
-    <div class="left-bottom">
+    <div class="left-bottom" data-aos="fade-up">
          <canvas class="chart-share" id="share"></canvas>
     </div>
 </div>
@@ -165,7 +163,7 @@ too late.</p>
     <div class="right-top">
         <p>Check out the traffic from this campaign</p>
     </div>
-    <div class="right-bottom">
+    <div class="right-bottom" data-aos="fade-up">
         <canvas class="chart-sharebar" id="sharebar"></canvas>
     </div>
 </div>
@@ -177,8 +175,117 @@ too late.</p>
             can!)</p>
         </div>
     </div>
-</div>
+    <div class="row action">
+        <div class="col-sm-12">
+            <h1>Take action.</h1>
+            <h1>Get results.</h1>
+            <p>Our customers love Klipfolio because it brings focus, agility, and confidence to their work. It's for people who take
+            action and get results. Sound like you? Let's get started.</p>
+            <button>Get PowerMetrics Free</button>
+        </div>
+    </div>
 
+
+
+
+</div>
+<!-- ----footer -->
+<div class="row footer">
+    <div class="wrapper">
+        <div class="col-12 footer-top">
+            <ul class="footer-toplist">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Careers</li>
+                <li>Customers</li>
+                <li>Resources</li>
+                <li>MetricHQ</li>
+                <li>Sitemap</li>
+            </ul>
+            <hr>
+        </div>
+        <div class="row footer-bottom">
+            <div class="col-xl-3 col-sm-6">
+                <ul class="bottom-list">
+                    <li>Solutions</li>
+                    <li>By Department</li>
+                    <li>By Industry</li>
+                    <li>By Integration Mashup</li>
+                    <li>By Use Case</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <ul class="bottom-list">
+                    <li>Templates and Examples</li>
+                    <li>Live Dashboard Examples</li>
+                    <li>Dashboard Templates</li>
+                    <li>Dashboard Examples</li>
+                    <li>Klip Templates</li>
+                    <li>KPI Examples</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <ul class="bottom-list">
+                    <li>Partner With Us</li>
+                    <li>Become a Klipfolio Partner</li>
+                    <li>Become an Integration Partner</li>
+                    <li>Partners Directory</li>
+                    <li>White-Label Reporting</li>
+
+                </ul>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <ul class="bottom-list">
+                    <li>Award Winning Support</li>
+                    <li>Videos</li>
+                    <li>Quick Tips</li>
+                    <li>Developer Docs</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="row footer-icons">
+            <div class="col-xl-6 col-sm-12 left-icons text-xl-left text-sm-center">
+                <ul class="icons-leftlist">
+                    <li><a href="https://www.facebook.com/"> <img src="./image/tweter.png"></a>
+                       </li>
+                    <li><img src="./image/facebook.png"></li>
+                    <li><a fref="#"><img src="./image/in.png"></a></li>
+                    <li><a fref="#"><img src="./image/inst.png"></a></li>
+                    <li><a href="youtube.com"><img src="./image/youtobe.png"></a></li>
+
+                </ul>
+            </div>
+            <div class="col-xl-6 col-sm-12 right-icons text-xl-right text-sm-center">
+                <ul class="icons-rightlist">
+                    <li>Available on:</li>
+                    <li><a href="https://www.apple.com/iphone/appstore/"><img src="./image/appstore.png"></a></li>
+                    <li><a href="https://play.google.com/"><img src="./image/googleplay.png"></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row copiright">
+        <div class="col-xl-6 col-sm-12 text text-xl-left text-sm-center">
+            <ul class="text-list">
+                <li>Copyright © 2001 - 2021 Klipfolio Inc. All Rights Reserved.</li>
+            </ul>
+        </div>
+        <div class="col-xl-6 col-sm-12 right-text text-xl-right text-sm-center">
+            <ul class="list-righttext">
+                <li>Legal</li>
+                <li>Security</li>
+                <li>Accessibility</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- ---end footer -->
 
 <script src="./scripts/main.js" type="module"></script>
 <script nomodule> alert("Ваш браузер не поддерживается =("); </script>
@@ -195,5 +302,11 @@ too late.</p>
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200,
+            })
+        </script>
 </body>
 </html>
